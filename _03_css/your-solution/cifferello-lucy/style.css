@@ -1,0 +1,13 @@
+img {
+  height: 32px;
+  width: 44px;
+}
+
+.movies tr:nth-child(odd) {
+  background: #f0f0f2;
+}
+
+section {
+  float: left;
+  width: 50%;
+}
