@@ -10,19 +10,13 @@ body {
 	font-family: 'colaborate-thinregular', Arial, sans-serif;
 }
 
-/* Primary header */
+/* Header */
 
 header {
 	height: auto;
 	width: auto;
 	text-align: center;
-}
-
-footer {
-	height: auto;
-	width: auto;
-	text-align: center;
-	margin-top: 50px;
+	border-bottom: 3px double;
 }
 
 header nav {
@@ -30,6 +24,7 @@ header nav {
 	width: auto;
 	display: block;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .list a {
@@ -61,7 +56,7 @@ header nav {
   min-height: 100%;
 }
 
-/* Middle */
+/* Content */
 
 .col-1-3 {
   width: 33%;
@@ -73,12 +68,26 @@ header nav {
 
 .col-1-3,
 .col-2-3 {
-  display: inline-block;
+  display: inline;
   vertical-align: top;
 }
 
 .photos{
   display: none;
+}
+
+#travel {
+  display: block;
+  height: 36px;
+  width: 180px;
+  background: #4ebfae;
+  border: 2px solid #215148;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	color: #215148;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Paragraph elements */
@@ -90,12 +99,15 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 44px;
+	text-align: center;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
+	text-align: center;
+	line-height: 44px;
 }
 
 p {
@@ -106,6 +118,26 @@ li {
   line-height: 30px;
 }
 
+/*not sure if this is best centering fix for feelings*/
+.feelings{
+	height: auto;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 280px;
+	height: 175px;
+}
+
+/* Footer */
+
+footer {
+	height: auto;
+	width: auto;
+	text-align: center;
+	margin-top: 50px;
+	border-top: 3px double;
+	}
 
 /* Typography */
 
