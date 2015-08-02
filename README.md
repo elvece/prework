@@ -1,5 +1,5 @@
 ## gSchool Pre-Work
-This repo contains my solutions to the pre-work exercises for gSchool. Below are the instructions and objectives for this work.
+***This repo contains my solutions to the pre-work exercises for gSchool. Below are the instructions and objectives for this work.***
 
 ### Galvanize Fullstack Pre-Course Curriculum
 Hello, Full-Stackers!
