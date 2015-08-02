@@ -44,7 +44,7 @@ header nav {
 
 .round {
   border-radius: 50%;
-  overflow: hidden;
+	overflow: hidden;
   width: 200px;
   height: 200px;
 	margin-left: auto;
